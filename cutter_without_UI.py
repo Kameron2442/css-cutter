@@ -1,12 +1,11 @@
-read_file = "YOUR_FILE.css"  # the name of the file you are reading
-to_keep = ".navbar-"  # the first few letters of the style rules you want to keep
+read_file = "YOUR_FILE.css"  # The path of the file which will be cut
+to_keep = ".navbar-"  # The class name or prefix of class names that you want to keep
 
 file = open(read_file, "r")
-new_file = ""  # string to hold style rules which are kept
-
-get_styles = 0  # flag for if to_keep in found in a line
-get_media = 0  # flag for if a media rule is present
-flag = 0  # flag gets activated in the last if statement if a "}" has already been claimed by a previous if statment for belonging to a style rule. In short, it checks if the "}" belongs to a media rule.
+new_file = ""  # String to hold the style rules that are kept
+get_styles = 0  # Flag for if to_keep in found in a line
+get_media = 0  # Flag for if a media rule is present
+flag = 0  # Flag gets activated if a "}" has already been claimed by a previous if-statment for belonging to a style rule. In short, it checks if the "}" belongs to a media rule.
 
 for line in file:
     flag = 0
