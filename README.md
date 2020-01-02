@@ -19,4 +19,4 @@ I run a website through Webflow which allows me to build pages with a visual edi
 2. In the first line, rename the "read_file" string to the path of your file to cut
 3. Rename all the styles you want to keep to have the same unique first few letters if you want
 4. In the second line, rename the "to_keep" String to the first few letters of the styles you want to keep
-5. Run cutter.py in the same directory as the file which you are cutting
+5. Run cutter.py 
