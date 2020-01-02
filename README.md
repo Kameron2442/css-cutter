@@ -5,7 +5,7 @@ cutter_with_UI.py: Useful if you want to use this with a UI <br>
 cutter_without_UI.py: Useful if you just want the cutting algorithm
 
 ## My use case
-I run a website through Webflow which allows me to build pages with a visual editor and export code. A small part of my website is hosted on a separate hosting provider and only needs 30ish classes out of the hundreds on the main website, but webflow puts and entire website's style rules into one file. I made this script so that I don't have to repeatedly delete the style rules I don't need and cut down from having .4mb of style rules to 10kb.
+I run a website through Webflow which allows me to build pages with a visual editor and export code. A small part of my website is hosted on a separate hosting provider and only needs 30ish classes out of the hundreds on the main website, but webflow puts the entire website's style rules into one file. I made this script so that I don't have to repeatedly delete the style rules I don't need and cut down from having .4mb of style rules to 10kb.
 
 ## Instructions - cutter_with_UI.py
 ![Example](https://github.com/Kameron2442/css-cutter/blob/master/UI.png)
